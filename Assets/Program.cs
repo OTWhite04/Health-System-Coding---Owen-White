@@ -1,3 +1,4 @@
+using JetBrains.Annotations;
 using System;
 public class HealthSystem
 {
@@ -19,18 +20,19 @@ public class HealthSystem
 
     public string ShowHUD()
     {
-        // Implement HUD display
+        
         return "";
     }
 
     public void TakeDamage(int damage)
     {
-        // Implement damage logic
+        
     }
 
     public void Heal(int hp)
     {
         // Implement healing logic
+
     }
 
     public void RegenerateShield(int hp)
